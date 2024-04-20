@@ -85,6 +85,8 @@ def display_menu():
         exit(0)
     else:
         print("Invalid! Follow the instructions in the display")
+        print("Try again:")
+        display_menu()
 
 if __name__ == "__main__":
     display_menu()
